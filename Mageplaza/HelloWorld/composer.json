@@ -1,0 +1,22 @@
+{
+    "name": "mageplaza/hello-world",
+    "description": "custom module.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Custom Mageplaza",
+            "email": "test@email.com"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Mageplaza\\HelloWorld\\": ""
+        }
+    }
+}
